@@ -1,0 +1,15 @@
+ALL SET UP RULE MENTIONED BELOW-----
+
+1-> for installing node modules type command in terminal (npm install) it will install all required modules to your project.
+2-> After installing node modules for running your project you need to type (yarn start) in your terminal so it will open in browser at port 3000 which is fefault.
+3-> Now you will see home page with navigation bar which had home,about us,service,registration and login button.
+4-> First you need to register the user by entering your name,email,password,phonenumber and gender then you will get register.
+
+NOTE: Email will be your username for login.
+
+5-> Now you need to click on login enter your username and password then you will get redirect to restaurant list.so here we are using json web token for authencating the user and checking if 
+    it is authorised user or not so it will set token in localstorage in each and every RESTapi request user will get authencate for accessing the data.
+6-> After landing restaurant list which has name of registered restaurant name and select button,when you clicks select button then you will redirect to foodlist
+    page where food item get listed from you can add any food item you want to just click ADD+ then checkout page displays (foodname,description and it's price) there
+    you can see checkout button.
+7-> I have added remove for removing an item and restaurant button to select any other restaurant according to you needs.
